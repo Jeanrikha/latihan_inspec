@@ -7,16 +7,16 @@ public class Driver {
 		Mahasiswa mahasiswa = new Mahasiswa();
 
 		System.out.println("IPK saat ini: " + mahasiswa.getIpk());
-		System.out.println("Status Kelulusan: " + mahasiswa.getStatusKelulusan());
+		System.out.println("Status Lulus: " + mahasiswa.getStatusKelulusan());
 
 		mahasiswa.setIpk(3.80);
 
 		System.out.println("IPK saat ini: " + mahasiswa.getIpk());
-		System.out.println("Status Kelulusan: " + mahasiswa.getStatusKelulusan());
+		System.out.println("Status Lulus: " + mahasiswa.getStatusKelulusan());
 
 		mahasiswa.setIpk(2.50);
 
 		System.out.println("IPK saat ini: " + mahasiswa.getIpk());
-		System.out.println("Status Kelulusan: " + mahasiswa.getStatusKelulusan());
+		System.out.println("Status Lulus: " + mahasiswa.getStatusKelulusan());
 	}
 }
